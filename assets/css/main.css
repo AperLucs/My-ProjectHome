@@ -9,14 +9,32 @@ html, body{
     Organizar Header
 ****************************************************/
 header{
-    /* analisando... */
     display:flex;
     justify-content: space-between;
-    
+
 }
 /***************************************************
     Organizar Container
 ****************************************************/
 .container{
     display:flex;
+    width: 100vw;
+    height: 80vh;
+    
+}
+/***************************************************
+    Organizar menu e content
+****************************************************/
+.menu{
+    flex-basis:20%;
+    /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:lightgreen;
+}
+.content{
+    flex-basis:80%;
+    background-color: lightgoldenrodyellow;
 }
