@@ -5,16 +5,40 @@
 body{
     height:100vh;
     width: 100vw;
-    background:linear-gradient(45deg, blue,rgb(64, 64, 255))
 }
 .container{
     display:flex;
-    justify-content: center;
-    align-items:center;
+    background-color:rgba(5, 4,5, 0.9);
+    border-radius:10px;
+    height:90vh;
+    width: 100vw;
 }
 .menu{
-    flex-basis: 20%;
+    background-color:rgba(5, 4,5, 0.05);
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+    border:3px red solid;
+    height: 100%;width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.menu-item{
+    height:10%;
+    width:40%;
+    border:2px white solid;
 }
 .content{
+    height:100%;width:80%;
     flex-basis: 80%;
+}
+.menu-noticy{
+    flex-basis: 10%;
+    height:100%;width:100%;
+    justify-content: end;
+
+}
+.item-noticy{
+    border:1px darkred solid;
+    width: 80%;
 }
